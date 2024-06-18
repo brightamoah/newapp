@@ -186,7 +186,7 @@ export const useAuthStore = defineStore('authStore', () => {
       .then((userCredential) => {
         const user = userCredential.user
         updateProfilePicture()
-        console.log("Profile photo updated ")
+        console.log('Profile photo updated ')
         isLoggedIn.value = true
         console.log('Logged In Successfully:', userCredential, user)
 
@@ -200,6 +200,9 @@ export const useAuthStore = defineStore('authStore', () => {
           // Direct user to email verification page
           router.push('/email-verification')
         }
+        //reset form values
+        email.value = ''
+        password.value = ''
       })
       .catch((error) => {
         console.log(error.code)
@@ -240,6 +243,11 @@ export const useAuthStore = defineStore('authStore', () => {
             break
         }
       })
+
+      //reset form values
+      email.value = ''
+      password.value = ''
+
   }
 
   const signInWithGoogle = () => {

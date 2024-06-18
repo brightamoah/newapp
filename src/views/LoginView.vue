@@ -168,13 +168,13 @@ const authStore = useAuthStore()
 .logo {
   width: 10rem;
   height: auto;
-  margin-left: 30%;
+  margin-left: 33%;
   margin-top: 8px;
   margin-bottom: 1rem;
 }
 .welcome-txt {
   font-size: 1.2rem;
-  margin-left: 20%;
+  margin-left: 33%;
 }
 #wel-txt {
   color: rgb(0, 0, 0);

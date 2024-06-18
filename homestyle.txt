@@ -1,0 +1,323 @@
+.home {
+  width: 100%;
+  height: auto;
+  margin-top: 70px;             
+}
+
+.home-top {
+  width: 45rem;
+  display: flex;
+  margin-left: 17%;
+}
+
+.first-txt {
+  font-size: 3.75rem;
+  font-weight: 600;
+  color: rgb(48, 30, 8);
+}
+
+.txt2 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: rgb(245, 71, 72);
+}
+
+.txt-sec {
+  margin-top: 2.75em;
+}
+
+.plate {
+  width: 586px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.sub-txt {
+  height: 80px;
+  font-size: 1.5em;
+  width: 490px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.order-now {
+  width: 232px;
+  height: 82px;
+  background-color: rgb(245, 71, 72);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  margin-right: 20px;
+  margin-top: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.order-now:hover {
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+}
+
+.order-now:active {
+  background-color: white;
+  color: rgb(245, 71, 72);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 600;
+}
+
+.reservation {
+  width: 232px;
+  height: 82px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(249, 232, 232);
+  color: rgb(245, 71, 72);
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.reservation:active {
+  background-color: rgb(245, 71, 72);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 600;
+}
+
+.reservation:hover {
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+}
+
+.spag-pic {
+  width: 33.125rem;
+  height: auto;
+}
+
+/*Popular section */
+.popular-sec {
+  width: 100%;
+  height: auto;
+  margin-top: 189px;
+  background-color: rgb(231, 247, 237);
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 0px;
+}
+
+.front-jollof {
+  width: 28.125rem;
+  height: auto;
+  margin-left: 80px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+#sub-txt {
+  width: 374px;
+  text-align: justify;
+}
+
+.side-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-now2 {
+  margin-top: 220px;
+  margin-left: 90px;
+  width: 232px;
+  height: 82px;
+  background-color: rgb(245, 71, 72);
+  border: none;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*Heading before the menu section*/
+.title {
+  margin-top: 9.375rem;
+  text-align: center;
+}
+
+.pop-title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: rgb(48, 30, 8);
+}
+
+.pop-txt2 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: rgb(245, 71, 72);
+}
+
+/*container for the menu category buttons*/
+
+/*card for menu items */
+.card-sec {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 10px;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.menu-items {
+  width: 18.688rem;
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 10px;
+}
+
+/*food pic section*/
+.food-container {
+  height: 16rem;
+  width: 14rem;
+  margin-left: 34px;
+  margin-top: 30px;
+}
+
+.food {
+  width: 80%;
+  height: 80%;
+}
+
+.food-name {
+  font-size: 1.5rem;
+  color: rgb(48, 30, 8);
+  font-weight: 700;
+}
+
+/*food description section*/
+.food-desc {
+  height: auto;
+  width: 14rem;
+  margin-left: 34px;
+  margin-top: 0px;
+}
+
+.description {
+  width: 95%;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  margin-top: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+/*Star section */
+.star-sec {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+/*food price section*/
+.food-price {
+  width: 16.9rem;
+  height: 4rem;
+  margin-left: 35px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.add-to-cart {
+  width: 8.5rem;
+  height: 2.8rem;
+  background-color: rgb(245, 71, 72);
+  border: none;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.view-more {
+  margin-top: 140px;
+  margin-left: 45%;
+}
+
+#badge {
+  background-color: red;
+}
+
+.review-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.el-carousel__item h3 {
+  color: rgba(249, 212, 232, 2);
+  line-height: 200px;
+  margin: 0;
+  text-align: center;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: rgb(249, 232, 232);
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+  background-color: rgb(249, 232, 232);
+}
+
+.review-content {
+  text-align: center;
+  color: #333;
+}
+
+.review-username {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.review-rating,
+.review-comment {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.review{
+  width: 10px;
+}
+
+.review-image {
+  width: 5rem;
+  height: auto;
+}
+
+#review-star {
+  margin-left: 27%;
+}

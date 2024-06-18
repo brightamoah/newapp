@@ -81,7 +81,7 @@
                 <img id="profile" src="/icons/profile.png" alt="cart" />
               </span> -->
               <span id="profile">
-                <img id="profile" :src="authStore.activeUser.profilePicture" alt="avatar" style="border: 2px solid rgba(0, 0, 0, 0.4);    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;"/>
+                <img id="profile" src="/icons/profile.png" alt="avatar" style="border: 2px solid rgba(0, 0, 0, 0.4);    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;"/>
               </span>
             </RouterLink>
           </div>
